@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+*/venv/
+backend_formodel/backend_api/python_service/venv/
+
+# Python package / distribution
+build/
+dist/
+*.egg-info/
+
+# PyTorch / model files (often large) and saved model folders
+*.pth
+*.pt
+saved_models/
+**/saved_models/
+
+# Node
+node_modules/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local env
+*.log
+.env
+
+# DLLs and other compiled artifacts
+*.dll
+
+# If you want to keep some models tracked, use Git LFS instead of committing them directly.
