@@ -42,8 +42,6 @@ EcoGuardians-main/
 ├── AI-models/
 │   ├── Desagrigation-model/      # 🤖 NILM energy disaggregation
 │   └── Failure-detection/        # ⚠️ Equipment failure detection
-└── other-interfaces/
-    └── Arduino-code+interfaces/  # 🔌 IoT sensor integration
 ```
 
 ---
