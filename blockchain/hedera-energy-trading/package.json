@@ -1,0 +1,31 @@
+{
+  "name": "hedera-energy-trading",
+  "version": "1.0.0",
+  "description": "Hedera Hashgraph-based energy trading system with TEC token",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init": "node init-token.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hedera",
+    "hashgraph",
+    "energy",
+    "trading",
+    "blockchain",
+    "TEC"
+  ],
+  "author": "EcoGuardians Energy Trading",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.54.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "pg": "^8.13.1",
+    "bcrypt": "^5.1.1",
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+.env
+*.rar
+*.zip
+*.exe
+fabric-samples/
+fabric-ca-binaries.tar.gz
+*.db
+*.sqlite
+*.sqlite3
